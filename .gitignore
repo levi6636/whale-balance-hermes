@@ -1,0 +1,36 @@
+# Hermes writes this when mirroring a plugin into desktop-plugins/.
+# It contains an absolute path local to whoever built it.
+.hermes-package.json
+
+# Local-only media. These are deliberately not redistributed; see README
+# "Licensing". Placing your own copies here is fine — they stay untracked.
+assets/*.png
+assets/*.jpg
+assets/*.jpeg
+assets/*.gif
+assets/*.webp
+assets/*.mp3
+assets/*.wav
+assets/*.ogg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit these
+.env
+.env.*
+*.pem
+*.key

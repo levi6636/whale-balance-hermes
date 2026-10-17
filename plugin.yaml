@@ -1,0 +1,5 @@
+name: whale-balance-hermes
+version: 0.1.0
+description: Original in-window whale mascot with DeepSeek CNY account balance
+provides_tools: []
+provides_hooks: []

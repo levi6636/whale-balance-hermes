@@ -1,0 +1,8 @@
+{
+  "name": "whale-balance-hermes",
+  "label": "Whale Balance",
+  "description": "Backend only; the mascot is a native Desktop contribution.",
+  "version": "0.1.0",
+  "slots": [],
+  "api": "plugin_api.py"
+}
